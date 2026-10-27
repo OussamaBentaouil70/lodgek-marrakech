@@ -9,6 +9,7 @@ import { Hero } from "./components/Hero";
 import { Intro } from "./components/Intro";
 import { Navbar } from "./components/Navbar";
 import { SignatureExperiences } from "./components/SignatureExperiences";
+import { ThankYou } from "./components/ThankYou";
 import { defaultEventInquiry, defaultWhatsappMessage, whatsappIcon, whatsappLink, type EventInquiry } from "./data/site";
 
 export default function App() {
@@ -45,7 +46,7 @@ export default function App() {
         return false;
       }
 
-      setInquiryReference(`WPM-${Math.random().toString(36).slice(2, 8).toUpperCase()}`);
+      window.location.assign("/thank-you");
       return true;
     } catch {
       setSubmissionError("Connection problem. Please try again.");
@@ -70,6 +71,18 @@ export default function App() {
     isSubmitting,
     submissionError,
   };
+
+  if (window.location.pathname.replace(/\/+$/, "") === "/thank-you") {
+    return (
+      <div className="min-h-screen bg-canvas font-sans text-primary antialiased">
+        <Navbar />
+        <main>
+          <ThankYou />
+        </main>
+        <Footer />
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-canvas font-sans text-primary antialiased">
