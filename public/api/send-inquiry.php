@@ -98,7 +98,7 @@ if ($errors !== []) {
 }
 
 $fromAddress = env('MAIL_FROM_ADDRESS', env('MAIL_USERNAME'));
-$fromName = env('MAIL_FROM_NAME', 'Weddings Planner Morocco');
+$fromName = env('MAIL_FROM_NAME', 'Lodgek Marrakech');
 $adminEmail = env('ADMIN_EMAIL');
 $adminName = env('ADMIN_NAME', $fromName);
 $smtpUsername = env('MAIL_USERNAME');

@@ -59,8 +59,8 @@ export function Hero({
           </p>
 
           <p className="type-body-lg mt-6 max-w-xl text-white/90">
-            From romantic destination weddings to elegant private celebrations, Weddings
-            Planner Morocco creates bespoke events that reflect your style and bring your
+            From romantic destination weddings to elegant private celebrations, Lodgek
+            Marrakech creates bespoke events that reflect your style and bring your
             vision to life.
           </p>
 

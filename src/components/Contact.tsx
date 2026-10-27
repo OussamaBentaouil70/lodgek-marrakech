@@ -36,7 +36,7 @@ export function Contact({
           <Reveal delay={0.12}>
             <p className="type-body-lg mt-6 text-muted">
               Whether you're dreaming of an intimate garden wedding, an elegant private
-              dinner or a vibrant celebration beneath the palms, Weddings Planner Morocco
+              dinner or a vibrant celebration beneath the palms, Lodgek Marrakech
               will help you bring every detail together.
             </p>
             <p className="type-body-lg mt-4 text-muted">

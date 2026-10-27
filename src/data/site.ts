@@ -1,5 +1,5 @@
 /* ------------------------------------------------------------------ */
-/*  Weddings Planner Morocco — all site content lives here             */
+/*  Lodgek Marrakech — all site content lives here                      */
 /* ------------------------------------------------------------------ */
 
 export interface Photo {
@@ -45,9 +45,9 @@ export { whatsappIcon };
 /* ------------------------------ Brand ------------------------------- */
 
 export const brand = {
-  name: "Weddings Planner Morocco",
-  primary: "Weddings Planner",
-  secondary: "Morocco",
+  name: "Lodgek Marrakech",
+  primary: "Lodgek",
+  secondary: "Marrakech",
   location: "Marrakech",
 };
 
@@ -58,7 +58,7 @@ export const whatsappLink = (message: string) =>
   `https://wa.me/${whatsappBusinessNumber}?text=${encodeURIComponent(message)}`;
 
 export const defaultWhatsappMessage =
-  "Hello Weddings Planner Morocco, I would like help planning a celebration in Marrakech.";
+  "Hello Lodgek Marrakech, I would like help planning a celebration in Marrakech.";
 
 export const navLinks = [
   { label: "What we create", href: "#celebrations" },

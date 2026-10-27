@@ -2,7 +2,7 @@ import { brand } from "../data/site";
 import { cn } from "../utils/cn";
 
 /**
- * Monogram: a thin sage Moroccan arch framing a serif "W".
+ * Monogram: a thin sage Moroccan arch framing a serif "L".
  * Uses currentColor for the letter; the arch is always sage.
  */
 export function LogoMark({ className }: { className?: string }) {
@@ -17,13 +17,13 @@ export function LogoMark({ className }: { className?: string }) {
         fontSize="20"
         fill="currentColor"
       >
-        W
+        L
       </text>
     </svg>
   );
 }
 
-/** Full wordmark: monogram + "Weddings Planner" serif + "MOROCCO" tracked sans. */
+/** Full wordmark: monogram + "Lodgek" serif + "MARRAKECH" tracked sans. */
 export function Wordmark({ tone = "dark", className }: { tone?: "dark" | "light"; className?: string }) {
   const light = tone === "light";
   return (

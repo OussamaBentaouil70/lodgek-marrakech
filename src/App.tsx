@@ -102,7 +102,7 @@ export default function App() {
         href={whatsappLink(defaultWhatsappMessage)}
         target="_blank"
         rel="noreferrer"
-        aria-label="Start a WhatsApp conversation with Weddings Planner Morocco"
+        aria-label="Start a WhatsApp conversation with Lodgek Marrakech"
         className="fixed right-4 bottom-[4.5rem] z-40 inline-flex h-12 items-center gap-2 border border-white/20 bg-[rgba(19,21,22,0.8)] px-4 font-impact text-[0.875rem] tracking-[1px] text-white uppercase backdrop-blur-sm transition-opacity hover:opacity-80 sm:right-6 sm:bottom-20"
       >
         <img src={whatsappIcon} alt="" className="h-4 w-4 object-contain" />

@@ -20,7 +20,7 @@ export function EventPromise() {
       <div className="mx-auto max-w-[1380px] px-6 py-20 sm:px-10 sm:py-28">
         <div className="mx-auto max-w-3xl text-center">
           <Reveal>
-            <Eyebrow tone="light">The Weddings Planner Morocco experience</Eyebrow>
+            <Eyebrow tone="light">The Lodgek Marrakech experience</Eyebrow>
           </Reveal>
           <Reveal delay={0.06}>
             <h2 className="type-display-sm mt-6 text-white">Our Event Promise</h2>

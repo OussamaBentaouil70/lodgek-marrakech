@@ -56,7 +56,7 @@ export function Navbar() {
             solid ? "h-[72px]" : "h-[87px]",
           )}
         >
-          <a href="#top" aria-label="Weddings Planner Morocco — back to top" className="shrink-0">
+          <a href="#top" aria-label="Lodgek Marrakech — back to top" className="shrink-0">
             <Wordmark tone={solid ? "dark" : "light"} />
           </a>
 
@@ -91,7 +91,7 @@ export function Navbar() {
               href={whatsappLink(defaultWhatsappMessage)}
               target="_blank"
               rel="noreferrer"
-              aria-label="Message Weddings Planner Morocco on WhatsApp"
+              aria-label="Message Lodgek Marrakech on WhatsApp"
               className="btn btn-whatsapp hidden min-h-[42px] px-5 py-2.5 text-[0.875rem] md:inline-flex"
             >
               <img src={whatsappIcon} alt="" className="h-4 w-4 object-contain" />
